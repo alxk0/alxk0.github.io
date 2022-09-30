@@ -39,3 +39,6 @@ div.sticky {
 	border:0px solid black;
 	margin:5px;
 }
+.sub{
+	width:25%;text-align:left;padding-top:5px;font-size:16px;
+}
