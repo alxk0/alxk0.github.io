@@ -1,0 +1,41 @@
+body {
+	background-color:#F9F9F9;
+	font-family:"STIX Two Text";
+	font-size: 15px;
+	color:#36454F;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	margin:0;
+}
+
+a:link { text-decoration:none;color: #000000;}
+a:visited { text-decoration:none;color:#000000;}
+a:hover { text-decoration:none;background-color: greenyellow;}
+a:active { text-decoration:none; color:#000000;}
+a {
+    color:#000000;
+    text-decoration:none;
+}
+div.sticky {
+	position:-webkit-sticky;
+	position:sticky;
+	top:0;
+	background-color:#F9F9F9;
+	border: 0px solid black;
+	padding:5px;
+	height:75px;
+	font-size:15px;
+	width:200px;
+}
+.flex-container {
+	display:flex;
+	flex-wrap:wrap;
+	border:0px solid black;
+	position:relative;
+}
+.flex-container > div {
+	border:0px solid black;
+	margin:5px;
+}
