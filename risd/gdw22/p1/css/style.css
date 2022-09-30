@@ -44,3 +44,9 @@ div.sticky {
 .sub{
 	width:25%;text-align:left;padding-top:5px;font-size:15px;
 }
+span {
+    border-bottom:1px dotted #000;
+}
+.highlight {
+    background:yellow;
+}
