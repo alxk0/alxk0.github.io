@@ -10,7 +10,6 @@ body {
 	line-height:1.5;
 	margin:0;
 }
-
 a:link { text-decoration:none;color: #000000;}
 a:visited { text-decoration:none;color:#000000;}
 a:hover { text-decoration:none;background-color: greenyellow;}
@@ -21,8 +20,8 @@ a {
 }
 div.sticky {
 	position:-webkit-sticky;
-	position:sticky;
 	top:0;
+	position:sticky;
 	background-color:#F9F9F9;
 	border: 0px solid black;
 	padding:5px;
@@ -44,9 +43,8 @@ div.sticky {
 .sub{
 	width:25%;text-align:left;padding-top:5px;font-size:15px;
 }
-span {
-    border-bottom:1px dotted #000;
-}
-.highlight {
-    background:yellow;
+
+span:hover,
+span:hover ~ span {
+	background-color: 00F9FF;
 }

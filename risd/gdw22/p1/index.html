@@ -6,19 +6,6 @@
 	<title>THE RECIPE INDEX : A GASTRONOMIC ARCHIVE</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=STIX+Two+Text">
 	<link rel="stylesheet" href="css/style.css">
-	<script type="text/javascript" src="_javascript/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript">
-		$('span[title]').hover(
-		    function() {
-		        $(this).addClass('highlight');
-		        $('span:contains("'+$(this).attr('title')+'")').addClass('highlight');
-		    },
-		    function() {
-		        $(this).removeClass('highlight');
-		        $('span:contains("'+$(this).attr('title')+'")').removeClass('highlight');
-		    }
-		);
-	</script>
 </head>
 <body>
 <div class="sticky" style="font-size:22px;width:100%">
@@ -27,7 +14,7 @@
 		A GASTRONOMIC ARCHIVE
 		</span>
 </div>
-<div class="flex-container">
+<div class="flex-container wrapper_class">
 	<!-- COLUMN 1-->
 	<div class="flex-container" style="width:2%;"></div>
 	<div class="flex-container" style="width:27%;">
@@ -37,17 +24,17 @@
 		</div>
 		<div style="width:15%;font-size:30px;">B</div>
 		<div style="width:75%;padding-top:4px;">
-			<a href="beefbourg.html">Beef Bourguignon</a>
+			<span class="beef"><a href="beefbourg.html">Beef Bourguignon</a></span>
 			<p>
-			<span title="cardamom"><a href="beefcheek.html">Beef Cheek Daube à La Provençal</a></span>
+			<span class="cardamom"><a href="beefcheek.html">Beef Cheek Daube à La Provençal</a></span>
 			<p>
-			<a href="beefmar.html">Beef Marinated with Sun-Dried Tomatoes</a>
+			<span class="beef"><a href="beefmar.html">Beef Marinated with Sun-Dried Tomatoes</a></span>
 			<p>
 			<a href="beefwell.html">Beef Wellington</a>
 		</div>
 		<div style="width:15%;font-size:30px;">C</div>
 		<div style="width:75%;padding-top:4px;">
-			<span title="cardamom">Cardamom</span>
+			<span class="cardamom">cardamom</span>
 			<p>
 			Carne Asada with Guacachile
 			<p>
