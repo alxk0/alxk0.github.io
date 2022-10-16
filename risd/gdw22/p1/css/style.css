@@ -18,6 +18,9 @@ a {
     color:#000000;
     text-decoration:none;
 }
+.home {
+		line-height:1.1;
+}
 div.sticky {
 	position:-webkit-sticky;
 	top:0;
@@ -43,8 +46,6 @@ div.sticky {
 .sub{
 	width:25%;text-align:left;padding-top:5px;font-size:15px;
 }
-
-span:hover,
-span:hover ~ span {
-	background-color: 00F9FF;
+.highlight {
+    background:cyan;
 }

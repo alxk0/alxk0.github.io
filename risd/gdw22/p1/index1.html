@@ -196,7 +196,7 @@
 			<p>
 			soy sauce
 			<p>
-			<span title="dessert"><a href="strawberryparfaits.html">Strawberry Parfaits</a></span>
+			<a href="strawberryparfaits.html"><span title="dessert">Strawberry Parfaits</span></a>
 			<hr>
 		</div>
 		<div style="width:15%;font-size:30px;">T</div>
@@ -223,14 +223,9 @@
 		<div style="width:75%;padding-top:4px;">
 			wheat
 			<p>
-			<span  title="Beef Bourguignon">wine</span>
+			<span class="chicken" title="Beef Bourguignon">wine</span>
 			<p>
-			<hr>
-		</div>
-		<div style="width:15%;font-size:30px;">X</div>
-		<div style="width:75%;padding-top:4px;">
-			<span title="ginger"><a href="worcestershire.html">Xiao Long Bao</a></span>
-			<p>
+			<span title="ginger"><a href="worcestershire.html">Worcestershire Katsu Sauce (Vegan)</a></span>
 			<hr>
 		</div>
 	<!-- /COLUMN3 -->
@@ -238,10 +233,11 @@
 </div>
 
 	<script type="text/javascript">
-	$('span[title]').hover(
+	$('span').hover(
 	    function() {
 	        $(this).addClass('highlight');
-	        $('span:contains("'+$(this).attr('title')+'")').addClass('highlight');
+	        // $('span:contains("'+$(this).attr('title')+'")').addClass('highlight');
+	        $('span.chicken').addClass('highlight');
 	    },
 	    function() {
 	        $(this).removeClass('highlight');
