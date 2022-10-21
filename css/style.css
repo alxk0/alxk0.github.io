@@ -46,11 +46,13 @@ a {
 		font-size: 25px;
 		padding-top: 4px;
 }
+.responsive{
+	width:  100%;
+}
 @media (max-width: 700px) {
   .grid{
   	grid-template-columns: 1fr;
   }
-
   .left {
   	text-align: left;
   }
