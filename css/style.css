@@ -1,21 +1,17 @@
 html {
+	font-family: "STIX Two Text";
+	font-size: min(max(1rem, 4.35vw), 30px);
 	line-height: 1.2;
-	-webkit-text-size-adjust: 100%;
+	color: #D9D9D9;
 }
 body {
 			margin: 10px;
 			background-color: #1B1B1B;
-			font-family: "STIX Two Text";
-			font-size: 15px;
-			color: #D9D9D9;
 }
 a:link { text-decoration: none; color:  #D9D9D9;}
 a:visited { text-decoration: none; color:  #D9D9D9;}
 a:hover { text-decoration: none; color: #1B1B1B; background-color: cyan; }
 a:active { text-decoration: none; color:  #1B1B1B;}
-a {
-    text-decoration: none;
-}
 .sticky {
 	position: sticky;
 	background-color: #1B1B1B;
@@ -37,20 +33,17 @@ a {
 	box-sizing:  border-box;
 }
 .left {
-	font-size: 30px; 
 	font-weight: 500;
 	text-align: right;
 	padding-right: 25px;
 }
 .right {
-		font-size: 25px;
-		padding-top: 4px;
 		max-width: 900px;
 }
 .responsive{
 	width: 100%;
 }
-@media (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .grid{
   	grid-template-columns: 1fr;
   }
