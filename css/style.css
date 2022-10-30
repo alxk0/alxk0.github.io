@@ -1,6 +1,7 @@
 html {
 	font-family: "STIX Two Text";
 	font-size: min(max(1rem, 4.35vw), 30px);
+	font-weight: 900;
 	line-height: 1.2;
 	color: #D9D9D9;
 }
