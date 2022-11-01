@@ -26,6 +26,7 @@ a:active { text-decoration: none; color:  #1B1B1B;}
   grid-template-columns: 1fr;
   align-items: center;
   border: 0px solid green;
+  width: 100vw;
   height: 90vh;
   justify-items: center; /* adjusted */
 }
