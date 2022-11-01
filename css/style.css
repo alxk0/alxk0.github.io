@@ -21,6 +21,14 @@ a:active { text-decoration: none; color:  #1B1B1B;}
 	font-size: 35px;
 	width: 100%;
 }
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  border: 0px solid green;
+  height: 90vh;
+  justify-items: center; /* adjusted */
+}
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 3fr 0.5fr;
