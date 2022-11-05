@@ -4,7 +4,7 @@ html {
 	font-size: min(max(1rem, 4.35vw), 30px);
 	font-weight: 400;
 	line-height: 1.2;
-	letter-spacing: 0.25px; 
+	letter-spacing: 0.5px; 
 	color: #D9D9D9;
 }
 body {
@@ -43,6 +43,15 @@ a:active { text-decoration: none; color:  #1B1B1B;}
 }
 .responsive{
 	width: 100%;
+}
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 @media screen and (max-width: 768px) {
   .grid{
