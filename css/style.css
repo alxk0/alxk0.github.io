@@ -4,7 +4,7 @@ html {
 	font-size: min(max(1rem, 4.35vw), 30px);
 	font-weight: 400;
 	line-height: 1.2;
-	letter-spacing: 0.5px; 
+	letter-spacing: 0.4px; 
 	color: #D9D9D9;
 }
 body {
