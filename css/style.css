@@ -1,14 +1,15 @@
-html {
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	background-color: #1B1B1B;
-	font-family: 'STIX Two Text';
-	font-size: min(max(1rem, 4.35vw), 30px);
-	font-weight: 400;
-	line-height: 1.2;
-	letter-spacing: 0.5px; 
+	font-family: 'STIX Two Text', serif;
+	font-size: min(max(1rem, 4.35vw), 24px);
+	line-height: 1.25;
+	letter-spacing: 0px; 
 	color: #D9D9D9;
-}
-body {
-			margin: 10px;
 }
 a:link { text-decoration: none; color:  #D9D9D9;}
 a:visited { text-decoration: none; color:  #D9D9D9;}
@@ -65,6 +66,15 @@ a:active { text-decoration: none; color:  #1B1B1B;}
 }
 .blink {
   animation: blinker 1s linear infinite;
+}
+hr 
+{
+	 margin-top:5px;
+	 margin-bottom:5px;
+}
+p
+{
+	margin-top:15px;
 }
 @keyframes blinker {
   50% {
