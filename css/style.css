@@ -43,7 +43,7 @@ a:active { text-decoration: none; color:  #212121;}
   grid-template-columns: 1fr;
   align-items: center;
   border: 0px solid green;
-  width: 100vw;
+  width: 100%;
   justify-items: center; /* adjusted */
 }
 .grid {
@@ -51,8 +51,7 @@ a:active { text-decoration: none; color:  #212121;}
 	grid-template-columns: 1.5fr 5fr 1.5fr;
 	grid-template-rows: auto;
 	border: 0px solid yellow;
-	width:100%;
-	gap: 5px;
+	gap: 0px;
 }
 .grid > div {
 	border: 0px solid white;
@@ -78,13 +77,17 @@ a:active { text-decoration: none; color:  #212121;}
 	font-weight: 600;
 	padding-top: 16px;
 	letter-spacing:1px;
+	max-width: 800px;
+}
+.center {
+	max-width: 800px;
 }
 .responsive{
 	width: 100%;
 }
 hr {
-	 margin-top:7px;
-	 margin-bottom:3px;
+	 margin-top:5px;
+	 margin-bottom:5px;
 }
 .content {
 	font-family: 'Karla', sans-serif;
