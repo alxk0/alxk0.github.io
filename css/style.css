@@ -11,7 +11,7 @@
 	box-sizing: border-box;
 	background-color: #1B1B1B;
 	font-family: 'Roboto Mono', sans-serif;
-	font-size: min(max(1rem, 4.35vw), 16px);
+	font-size: min(max(1rem, 4.35vw), 15px);
 	font-weight: 400;
 	line-height: 1.25;
 	letter-spacing: 0.4px; 
@@ -73,7 +73,7 @@ a:active { text-decoration: none; color:  #212121;}
 }
 .title {
 	font-family: Barlow, sans-serif; 
-	font-size: 150%;
+	font-size: 175%;
 	font-weight: 600;
 	padding-top: 16px;
 	letter-spacing:1px;
@@ -91,7 +91,7 @@ hr {
 }
 .content {
 	font-family: 'Karla', sans-serif;
-	font-size: min(max(1rem, 4.35vw), 16px);
+	font-size: min(max(1rem, 4.35vw), 15px);
 	letter-spacing: 0.0px; 
 }
 .accordion {
