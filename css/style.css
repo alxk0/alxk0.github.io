@@ -48,7 +48,7 @@ a:active { text-decoration: none; color:  #212121;}
 }
 .grid {
 	display: grid;
-	grid-template-columns: 1.5fr 5fr 1.5fr;
+	grid-template-columns: 1.0fr 6fr 1.0fr;
 	grid-template-rows: auto;
 	border: 0px solid yellow;
 	gap: 0px;
@@ -77,10 +77,10 @@ a:active { text-decoration: none; color:  #212121;}
 	font-weight: 600;
 	padding-top: 16px;
 	letter-spacing:1px;
-	max-width: 1000px;
+	max-width: 1100px;
 }
 .center {
-	max-width: 1000px;
+	max-width: 1100px;
 }
 .responsive{
 	width: 100%;
@@ -118,6 +118,9 @@ hr {
   .grid{
   	grid-template-columns: 1fr;
   }
+  .txt {
+		grid-template-columns: 2fr 1fr 0.5fr;
+	}
 	.left {
 		display: none;
 	}
