@@ -66,10 +66,6 @@ a:active { text-decoration: none; color:  #212121;}
 	grid-template-rows: auto;
 	width: 100%;
 }
-.txt > div {
-	font-weight: 500;
-	border: 0px solid yellow;
-}
 .left {
 	text-align: right;
 	padding-right: 10px;
