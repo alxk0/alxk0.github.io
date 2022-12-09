@@ -25,19 +25,15 @@ a:link { text-decoration: none; color:  #D9D9D9; font-size: 12px;}
 a:visited { text-decoration: none; color:  #D9D9D9;}
 a:hover { text-decoration: none; color: #1B1B1B; background-color: cyan; }
 a:active { text-decoration: none; color:  #212121;}
-/* width */
 ::-webkit-scrollbar {
   width: 10px;
 }
-/* Track */
 ::-webkit-scrollbar-track {
   background: #1B1B1B;
 }
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #D9D9D9;
 }
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #D9D9D9;
 }
