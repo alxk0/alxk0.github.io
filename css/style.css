@@ -40,7 +40,6 @@ a:active { text-decoration: none; color:  #212121;}
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  align-items: center;
   border: 0px solid green;
   width: 100%;
   justify-items: center; /* adjusted */
