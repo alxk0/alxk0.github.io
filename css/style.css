@@ -83,7 +83,7 @@ hr {
 }
 .active, .accordion:hover { background-color: cyan; }
 .panel {
-	display: grid;
+display: grid;
   place-items:  center;
   padding: 0 18px;
   max-height: 0px;
