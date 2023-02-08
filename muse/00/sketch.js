@@ -3,15 +3,15 @@
 // CTC-1000-04 : INTRODUCTION TO COMPUTATION
 // ALEX KIM, 08 FEB 2023
 
-let folder = "images/";
+let folder = "img/";
 let files = [];
 let images = [];
-let gridSize = 4;
+let gridSize = 16;
 let cellSize;
 let currentImage = 0;
 
 function preload() {
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 6000; i++) {
     files.push(i + ".png");
     images[i] = loadImage(folder + files[i]);
   }
@@ -20,7 +20,7 @@ function preload() {
 function setup() {
   createCanvas(600, 600);
   cellSize = width / gridSize;
-  frameRate(15);
+  frameRate(9);
 }
 
 function draw() {
