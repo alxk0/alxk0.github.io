@@ -20,7 +20,7 @@
 }
 a:link { text-decoration: none; color:  #D9D9D9; font-size: 12px;}
 a:visited { text-decoration: none; color:  #D9D9D9;}
-a:hover { text-decoration: none; color: magenta; background-color: none; }
+a:hover { text-decoration: none; color: cyan; background-color: none; }
 a:active { text-decoration: none; color:  #212121;}
 ::-webkit-scrollbar { width: 0px; }
 ::-webkit-scrollbar-track { background: #1B1B1B; }
@@ -80,7 +80,7 @@ hr {
   outline: none;
   transition: 0.4s;
 }
-.active, .accordion:hover { background-color: cyan; }
+/* .active, .accordion: hover { background-color: cyan; } */
 .panel {
 	display: grid;
   place-items:  center;
