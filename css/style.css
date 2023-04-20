@@ -44,7 +44,15 @@ a:active { text-decoration: none; color:  #212121;}
 ::-webkit-scrollbar-track { background: #1B1B1B; }
 ::-webkit-scrollbar-thumb { background: #1B1B1B; }
 ::-webkit-scrollbar-thumb:hover { background: #1B1B1B; }
-
+video::-webkit-media-controls {
+    display: none !important;
+  }
+  video::-webkit-media-controls-enclosure {
+    display: none !important;
+  }
+  video::-webkit-media-controls-overlay-play-button {
+    display: none !important;
+  }
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
