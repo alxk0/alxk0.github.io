@@ -68,10 +68,10 @@ iframe {
 .title {
 	font-family: Barlow, sans-serif; 
 	font-size: 165%;
-	font-weight: 600;
+	font-weight: 500;
 	padding-top: 16px;
 	letter-spacing:1px;
-	font-size: min(max(1rem, 4.35vw), 20px);
+	font-size: min(max(1rem, 4.35vw), 22px);
 }
 .responsive { width: 100%; }
 hr {
