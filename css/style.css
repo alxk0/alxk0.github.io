@@ -122,4 +122,11 @@ hr {
 	.txt { grid-template-columns: 2fr 1fr 0.5fr; }
 	.left { display: none; }
 	.right { display: none; }
+	.mobile-hide { display: none; }
+}
+.mobile-hide {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	letter-spacing: inherit;
 }
